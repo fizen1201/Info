@@ -1,0 +1,265 @@
+/*-----------------------------------------------------HTML FORMATION------------------------------------------------------------------*/
+body {
+    text-align: center;
+    color: #40514E;
+}
+
+hr {
+    border: dashed #EAF6F6;
+    width: 60%;
+    margin: 100px auto;
+    border-radius: 90%;
+}
+
+p {
+    line-height: 1.7;
+    font-size: 1.3rem;
+}
+
+h1 {
+    bottom: 60px;
+    margin: 0 auto;
+    width: 65%;
+    position: relative;
+    font-family: pacifico;
+    font-size: 402.5%;
+    background-image: url('https://media.giphy.com/media/xThta1wmw6DUBWgyXK/giphy.gif');
+    line-height: 1.2;
+    z-index: 1;
+}
+
+h2 {
+    color: #4cbbb9;
+    font-size: 4.0rem;
+    font-family: Righteous;
+}
+
+h3 {
+    color: #6983aa;
+    font-size: 1.5rem;
+    margin: 10px;
+    text-align: center;
+}
+
+.btn-outline-dark {
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-dark {
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: Montserrat;
+    padding-left: 10px;
+    padding-top: 17px;
+}
+
+#sample,
+#mail {
+    font-family: caveat;
+}
+
+#slideshow {
+    display: none;
+}
+
+/*------------------------------------------------------------------TOP CONTAINER---------------------------------------------------------*/
+
+.top {
+    background-color: #63b7af;
+}
+
+#cloud {
+    width: 300px;
+    position: relative;
+    top: 10px;
+}
+
+#lightning {
+    width: 120px;
+    height: 120px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    bottom: 20px;
+}
+
+#whitecup {
+    position: relative;
+    left: 27%;
+    bottom: 60px;
+}
+
+span {
+    font-family: Dancing Script;
+    font-size: 40px;
+    text-decoration: underline;
+    text-shadow: 3px 2px 5px green;
+}
+
+#programmer {
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 200%;
+    font-family: Montez;
+    letter-spacing: 3px;
+    bottom: 50px;
+}
+
+#whitedown {
+    position: relative;
+    right: 26%;
+    bottom: 60px;
+}
+
+#mountain {
+    border-radius: 20%;
+    width: 32%;
+    position: relative;
+    background-image: url('https://media.giphy.com/media/tIHktzgRi8yjIplFVI/giphy.gif');
+}
+
+/*---------------------------------------------------------------MIDDLE CONTAINER-------------------------------------------------------------*/
+.middle {
+    padding-top: 0px;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    padding-bottom: 60px;
+}
+
+#profile {
+    width: 225px;
+    height: 240px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    border-radius: 100%;
+}
+
+.Bio {
+    width: 73%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    background-image: url('https://media.giphy.com/media/UtPytiGfwVN44QkdKX/giphy.gif');
+    background-repeat: no-repeat;
+}
+
+.skill-row {
+    width: 100%;
+    text-align: center;
+    line-height: 1.7;
+    padding-left: 8px;
+    margin: 30px auto;
+}
+
+.skills {
+    padding-bottom: 20px;
+
+}
+
+#myskill {
+    margin-bottom: 20px;
+    font-size: 300%;
+}
+
+#grid {
+    width: 70%;
+}
+
+.skill-1 {
+    margin: 10% 21%;
+    width: 60%;
+    border-radius: 10%;
+}
+
+#webtitle {
+    font-size: 2.8rem;
+    margin-top: 4%;
+    font-family: lobster;
+}
+
+#webD {
+    margin: 10% 14%;
+    width: 80%;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    padding-left: 10px;
+}
+
+.skill-2 {
+    width: 49%;
+    border-radius: 10%;
+    margin: 13% 25% 5%;
+    height: 30%;
+
+}
+#phototitle {
+    font-size: 2.8rem;
+    margin-top: 32px;
+    font-family: lobster;
+}
+
+#photo {
+    margin: 10% 15% 5%;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    width: 80%;
+}
+
+/*-----------------------------------------FOOTER CONTAINER---------------------------------------------*/
+.footer-container {
+    background-color: #27496d;
+    padding: 1px;
+}
+
+#getintouch {
+    font-family: Righteous;
+    font-size: 230%;
+    width: 50%;
+    text-decoration: underline;
+    margin: 15% 25% 13% 25%;
+}
+
+.contact-me {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding-bottom: 1%;
+}
+
+.fa-instagram,
+.fa-github {
+    font-size: 2.8rem;
+    padding: 0px 20px 0px 20px;
+    color: #00909e;
+    margin-top: 10px;
+}
+
+.fa-instagram:hover,
+.fa-github:hover,
+.copyright:hover {
+    color: #ffa41b;
+}
+
+.copyright {
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #00909e;
+    opacity: 55%;
+    width: 175px;
+    margin: 0 auto;
+}
