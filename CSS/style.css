@@ -39,17 +39,17 @@ top: 10px;
     left: 7px;
 }
 #whitecup{
-    position: absolute;
-    right: 6%;
-    top: 30%;
+    position: relative;
+    left: 30%;
+    top: 35%;
 }
 h1{
-    bottom: 30px;
+    bottom: 20px;
     margin: 0 auto;
-    max-width: 260px;
+    width: 65%;
     position: relative;
     font-family: pacifico;
-    font-size: 492.5%;
+    font-size: 402.5%;
     background-image: url('https://media.giphy.com/media/xThta1wmw6DUBWgyXK/giphy.gif');
     line-height: 1.2;
 }
@@ -71,9 +71,10 @@ span{
     letter-spacing: 3px;
 }
 #whitedown{
-    position: absolute;
-    left: 6%;
-    top: 450px;
+    position: relative;
+    right: 30%;
+    bottom: 15px;
+    
 }
 
 #mountain{
@@ -92,8 +93,8 @@ span{
     padding-bottom: 60px;
 }
 #profile{
-    width: 205px;
-    height:200px;
+    width: 225px;
+    height:240px;
     margin-top: 70px;
     margin-bottom: 30px;
     border-radius: 100%;
@@ -141,7 +142,7 @@ h3{
     color: #00909e;
     margin-top:10px;
 }
-.fa-instagram:hover,.fa-github:hover,.copyright:hover{
+.fa-instagram:hover,.fa-github:hover,.right:hover{
     color: #ffa41b;
 }
 .copyright{
@@ -150,6 +151,9 @@ h3{
     margin-bottom: 10px;
     font-size: 1rem;
     color: #00909e;
+    opacity: 55%;;
+    width: 175px;
+    margin: 0 auto;
 }
 .btn-outline-dark{
     margin-top: 20px;
@@ -232,6 +236,7 @@ h3{
 }
 #sample,#mail{
     font-family: caveat;
+    
 }
 #slideshow{
     display: none;
