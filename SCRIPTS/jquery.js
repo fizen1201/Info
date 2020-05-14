@@ -1,3 +1,3 @@
 $('#sample').on("click", function(){
-    $('#slideshow').fadeToggle(1200);
+    $('#slideshow').fadeToggle(2000);
 });
