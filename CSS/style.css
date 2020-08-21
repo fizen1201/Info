@@ -3,7 +3,9 @@ body {
     text-align: center;
     color: #40514E;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 hr {
     border: dashed #EAF6F6;
     width: 60%;
